@@ -1,0 +1,80 @@
+html {
+    font-family: "Raleway";
+    text-align: center;
+    background-color: #fffcf9;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.weather {
+    color: white;
+    background-color: #ef476f;
+    border-radius: 12px;
+    height: 100vh;
+    padding-top: 5px;
+    margin: 15px;
+    width: 100%;
+    max-width: 400px;
+    max-height: 250px;
+}
+
+.main
+
+
+.input{
+    height: 25px;
+    width: 300px;
+    position: relative;
+    font-family: 'Raleway';
+    border-radius: 10px;
+    background-color: gainsboro;
+    outline: none;    
+}
+#button{
+    height: 25px;
+    width: 40px;
+    border-radius: 10px;
+}
+
+/* .container {
+    display: grid;
+    height: 100vh;
+
+    gap: 24px;
+
+    grid-template-rows: auto auto 1fr auto auto;
+    grid-template-areas: 
+        "header"
+        "search"
+        "main"
+        "sidebar"
+        "footer";
+}
+
+@media (min-width: 720px) {
+    .container {
+        grid-template-rows: auto auto 1fr auto;
+
+        grid-template-areas: 
+        "header header header"
+        "search search search"
+        "sidebar main main"
+        "footer footer footer";
+    }
+}
+
+@media (min-width: 1020px) {
+    .container {
+        grid-template-rows: auto auto 1fr auto;
+        grid-template-areas: 
+        "header header header header"
+        "sidebar search search search"
+        "sidebar main main main"
+        "footer footer footer footer";
+    }
+} */
